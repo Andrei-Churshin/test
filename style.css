@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 25px;
+  color: #515076;
+  background-image: url("img/bg_1.png");
+  background-size: 790px 697px;
+  background-position-x: 85px;
+  background-repeat: no-repeat;
+  max-width: 1110px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px 0px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  background-color: #f7f7fa;
+  width: 340px;
+  padding: 25px;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 10px 10px 18px 0px;
+  transition: all 0.5s ease-out;
+}
+
+.img {
+  width: 290px;
+  height: 245px;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  margin: 0;
+  text-align: center;
+  margin-top: 220px;
+  margin-bottom: 110px;/*
+  max-width: 1110px;*/
+}
+
+.products-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 45px;
+  column-gap: 45px;
+  justify-content: center;/*
+  max-width: 1110px;*/
+}
+
+.product-type {
+  color: #A5A3B9;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 27px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #A5A3B9;
+}
+
+.list {
+  margin-bottom: 5px;
+}
+
+.indent-li {
+  margin-bottom: 25px;
+}
+
+.pr {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.cost {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.card-bottom {
+  margin-top: auto;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+  margin-bottom: 16px;
+}
+
+.button {
+  font-family: montserrat,sans-serif;
+  width: 102px;
+  height: 31.62px;
+  margin: 0px auto;
+  border-width: 1px;
+  border-color: #464f6029;
+  border-radius: 6px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  cursor: pointer;
+  color: #515076;
+  letter-spacing: 2%;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.16),
+  0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  transition: all 0ms;
+  box-shadow: 0px 0px 0px 1px rgba(70, 79, 96, 0.32),
+  0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button:focus {
+transition: all 0ms;
+  box-shadow: 0px 0px 0px 4px rgba(79, 219, 138, 0.2),
+  0px 0px 0px 1px rgba(70, 79, 96, 0.32),
+  0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buy {
+  font-size: 14px;
+}
+
+.plus {
+  color: #515076;
+  width: 16px;
+  height: 16px;
+}
+  
