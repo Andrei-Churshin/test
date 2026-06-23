@@ -12,6 +12,7 @@ body {
   background-size: 790px 697px;
   background-position-x: 85px;
   background-repeat: no-repeat;
+  max-width: 1110px;
 }
 
 .card {
@@ -42,7 +43,8 @@ body {
   margin: 0;
   text-align: center;
   margin-top: 220px;
-  margin-bottom: 110px;
+  margin-bottom: 110px;/*
+  max-width: 1110px;*/
 }
 
 .products-list {
@@ -53,8 +55,8 @@ body {
   flex-wrap: wrap;
   row-gap: 45px;
   column-gap: 45px;
-  justify-content: center;
-  max-width: 1110px;
+  justify-content: center;/*
+  max-width: 1110px;*/
 }
 
 .product-type {
